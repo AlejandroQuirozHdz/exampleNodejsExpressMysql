@@ -19,15 +19,16 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"user\":\"alex123\",\n\t\"password\":\"snoopy_72_91\"\n}"
+					"raw": "{\n\t\"user\":\"alex12\",\n\t\"password\":\"snoopy_72_91\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:8090/api/services/login/",
-					"protocol": "http",
+					"raw": "https://api-service-kavak-example.herokuapp.com/api/services/login/",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"api-service-kavak-example",
+						"herokuapp",
+						"com"
 					],
-					"port": "8090",
 					"path": [
 						"api",
 						"services",
