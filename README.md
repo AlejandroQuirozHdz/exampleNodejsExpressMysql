@@ -1,15 +1,20 @@
-"# estructuraAlejandro" 
+"exampleNodejsExpressMysql"
 
+para bajar el proyecto necesitas de 
 
-para instalar el proyecto con 
+git clone git@github.com:AlejandroQuirozHdz/exampleNodejsExpressMysql.git
 
-git clone 
+una vez abajo el proyecto instalar los modulos que necesita mediante 
 
-npm install 
+npm install
 
-npm start 
+y para correr el proyecto  solo necesitas 
 
+npm start
 
-URL:http://localhost:7878/api/services/examplePromesa/
-URL:http://localhost:7878/api/services/hello/
-"# exampleNodejsExpressMysql" 
+el cual por defaul tiene el puerto 8090 y si esta en un servidor productivo le asigana el puerto que disponga 
+
+en la carpeta backup_mysql se encuentra el respaldo de la base de datos que necesita para funcionar por el momento esta 
+conectada a una base de datos en la nube que proporciona remotemysql.com 
+
+y en la carpeta postman se encuentra el exportable de postman con las pruebas  de los servicios para su uso
